@@ -79,3 +79,74 @@ div#formulario > h1 {
 
       font-size: 0.8em;
   }
+
+
+  form > div.campo {
+
+       background-color: #a56dcb;
+       width: 100%;
+       display: block;
+       height: 40px;
+       border-radius: 5px;
+       margin: 5px 0px;  /*  a de cima e em baixo com 5 e a da direita e esquerda com zero*/
+
+  }
+
+
+ div.campo > label {  /* Todo label que tiver dentro do form  */
+
+         display:none;  /* Tira o nome Login e senha  */
+         
+  }
+
+form > input[type=submit] { /* Formatacao do botao criado na class  */
+
+      
+      display:block; /* Colocando display em uma linha */
+      font-size: 1em;
+      width: 100%;
+      height: 40px;
+      background-color: #49a09d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+ 
+  }
+
+  form > input[type=submit]:hover {
+
+         background-color: #5f2c82;
+
+  }
+
+  form > a.link {  /* O link da classe bootao que esta dentro do form  */
+
+      display: block;
+      text-align: center;
+      font-size: 1em;
+      width: 100%;
+      height: 40px;
+      background-color: aqua;
+      border: 1px solid aqua;
+      border-radius: 7px;
+      text-decoration: none;
+      color: black;
+      padding-top: 5px;
+      margin-top: 5px;
+
+  }
+
+  form > a.link:hover {
+
+      background-color: yellow;
+
+  }
+
+
+  form > a.link > i { /* O icone que esta dentro do link e do form */
+
+      font-size: 0.8em;
+
+
+  }
