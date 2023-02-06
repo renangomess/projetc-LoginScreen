@@ -66,3 +66,16 @@ section#login > div#formulario {
       display: block; /* Visualmente nao muda nada mas estrategicamente sim  */
 
 }
+
+
+div#formulario > h1 {
+
+      text-align: center;
+      margin-bottom: 10px;
+
+  }
+
+  div#formulario > p {
+
+      font-size: 0.8em;
+  }
