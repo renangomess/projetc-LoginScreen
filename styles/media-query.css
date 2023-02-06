@@ -26,6 +26,7 @@ Faca uma pesquiza para achar valores atualizados
     section#login {
 
         width: 90vw; /* Aqui va ficar na largura do tablet  */
+        height: 280px;
     }
 
     /*  Abaixo para  mudar a posicao da imagem quando aumentar a tela d tamanho do tablet */
@@ -54,6 +55,7 @@ Faca uma pesquiza para achar valores atualizados
     section#login {
 
         width: 950px; 
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -80,4 +82,6 @@ Faca uma pesquiza para achar valores atualizados
     div#formulario > p {
 
         font-size: 1.2em;
+        margin: 20px 0px;
     }
+
